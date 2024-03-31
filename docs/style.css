@@ -1,7 +1,7 @@
 img {
   border-radius: 50%; 
-  width: 50%; /* 幅を50%に縮小 */
-  height: 50%; /* 高さを50%に縮小 */
+  width: 35%; /* 幅を35%に縮小 */
+  height: 35%; /* 高さを35%に縮小 */
   }
   section {
   border-width: 3px; 
@@ -11,6 +11,7 @@ img {
   padding: 16px; 
   margin-bottom: 8px; 
   background-image:url(img/背景.jpg);
+  background-size: cover;
   }
 
   body {
