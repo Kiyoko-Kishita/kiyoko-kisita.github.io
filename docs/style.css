@@ -1,5 +1,7 @@
 img {
-  border-radius: 20%; 
+  border-radius: 50%; 
+  width: 50%; /* 幅を50%に縮小 */
+  height: 50%; /* 高さを50%に縮小 */
   }
   section {
   border-width: 3px; 
@@ -8,8 +10,9 @@ img {
   border-radius: 8px; 
   padding: 16px; 
   margin-bottom: 8px; 
-  background-image:url(img/bg.jpg); 
+  background-image:url(img/背景.jpg);
   }
+
   body {
   text-align: center;
   }
