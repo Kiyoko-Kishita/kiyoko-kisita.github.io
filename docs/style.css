@@ -1,7 +1,18 @@
 img {
   border-radius: 50%; 
-  width: 35%; /* 幅を35%に縮小 */
-  height: 35%; /* 高さを35%に縮小 */
+  width: 30%; /* 幅を30%に縮小 */
+  height: 30%; /* 高さを30%に縮小 */
+  }
+  h1{
+    font-size: 50px;
+    color: #206b0e;
+  }
+  h2{
+    font-size: 30px;
+    color: #206b0e;
+  }
+  p{
+    color: #206b0e;
   }
   section {
   border-width: 3px; 
@@ -13,7 +24,6 @@ img {
   background-image:url(img/背景.jpg);
   background-size: cover;
   }
-
   body {
   text-align: center;
   }

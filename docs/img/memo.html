@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="memo.css"> <!-- memo.css ファイルを読み込む -->
+  <title>メモアプリ</title>
+</head>
+<body>
+  <h1>メモアプリ</h1>
+  <!-- メモを追加する入力フォーム -->
+  <div class="addMemo">
+    <input type="text" id="memoInput" placeholder="メモを入力" />
+    <input type="file" id="imageInput" />
+    <button onclick="addMemo()">メモを追加</button>
+  </div>
+  <!-- メモを検索する入力フォーム -->
+  <div class="searchMemo">
+    <input type="text" id="searchInput" placeholder="キーワードを入力" />
+    <button onclick="searchMemo()">検索</button>
+    <button onclick="resetSearch()">リセット</button>
+  </div>
+  <!-- ページを戻るリンク -->
+  <!-- <div class="back">
+    <a href="index.html">戻る</a>
+  </div> -->
+  <h2>メモリスト</h2>
+  <!-- メモの一覧を表示する領域 -->
+  <div class="memoList">
+    <ul id="memoList"></ul>
+  </div>
+  <!-- memo.js ファイルを読み込む -->
+  <script src="memo.js"></script>
+   <!-- 「戻る」ボタンを追加 -->
+   <p><a href="#" onclick="goBack()">戻る</a></p>
+</body>
+</html>

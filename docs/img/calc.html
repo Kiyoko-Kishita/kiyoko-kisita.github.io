@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css"> <!-- CSSファイルのリンク -->
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display" id="result">0</div> <!-- 結果を表示するディスプレイ -->
+        <div class="buttons">
+            <button onclick="clearResult()">C</button>  <!-- クリアボタン -->          
+            <button onclick="toggleSign()">+/-</button><!-- +/-切り替えボタン -->         
+            <button onclick="calculatePercentage()">%</button>   <!-- ％ボタン -->           
+            <button onclick="appendOperator('/')">÷</button><!-- ÷ボタン -->         
+            <button onclick="appendNumber('7')">7</button> <!-- 数字ボタン -->
+            <button onclick="appendNumber('8')">8</button><!-- 数字ボタン -->
+            <button onclick="appendNumber('9')">9</button><!-- 数字ボタン -->           
+            <button onclick="appendOperator('*')">×</button><!-- ×ボタン -->          
+            <button onclick="appendNumber('4')">4</button> <!-- 数字ボタン -->
+            <button onclick="appendNumber('5')">5</button><!-- 数字ボタン -->
+            <button onclick="appendNumber('6')">6</button><!-- 数字ボタン -->            
+            <button onclick="appendOperator('-')">-</button><!-- マイナスボタン -->         
+            <button onclick="appendNumber('1')">1</button> <!-- 数字ボタン -->
+            <button onclick="appendNumber('2')">2</button><!-- 数字ボタン -->
+            <button onclick="appendNumber('3')">3</button><!-- 数字ボタン -->           
+            <button onclick="appendOperator('+')">+</button><!-- ＋ボタン -->         
+            <button onclick="appendNumber('0')">0</button><!-- 数字０ボタン -->          
+            <button onclick="appendDecimal()">.</button> <!-- 小数点ボタン -->          
+            <button onclick="calculateResult()">=</button><!-- イコールボタン -->
+        </div>
+    </div>
+    <script src="calc.js"></script> <!-- JavaScriptファイルのリンク -->
+    <!-- 「戻る」ボタンを追加 -->
+   <p><a href="#" onclick="goBack()">戻る</a></p>
+</body>
+
+</html>

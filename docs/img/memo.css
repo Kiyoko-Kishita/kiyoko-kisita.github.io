@@ -1,0 +1,26 @@
+/* 全体のスタイル */
+.addMemo {
+  width: 100%;
+  margin: 5%;
+  padding: 5px;
+}
+.searchMemo {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+.back {
+  margin-top: 10px;
+  padding: 10px;
+}
+.memoList {
+  width: 100%;
+  padding: 5px;
+}
+
+h1 {
+  color: Green; /* h1 メモアプリ色を緑に設定 */
+}
+h2 {
+  color: green;/* h2 メモリスト色を緑に設定 */
+}

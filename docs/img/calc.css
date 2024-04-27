@@ -1,0 +1,54 @@
+/* カルキュレーター全体のスタイル */
+.calculator {
+  width: 320px; /* カルキュレーターの幅 */
+  margin: 50px auto; /* 上下左右の余白を自動調整 */
+  border: 2px solid #064708; /* 枠線を灰色に設定 */
+  border-radius: 10px; /* 枠線の角を丸くする */
+  padding: 10px; /* 内側の余白を設定 */
+  background-color: #d5eed5; /* 背景色を薄いグレーに設定 */
+}
+
+/* ディスプレイのスタイル */
+.display {
+  font-size: 2em; /* フォントサイズを大きくする */
+  text-align: right; /* 文字を右寄せにする */
+  margin-bottom: 10px; /* 下側に余白を設定 */
+  padding: 10px; /* 内側の余白を設定 */
+  border: 1px solid #ccc; /* 枠線を灰色に設定 */
+  border-radius: 5px; /* 枠線の角を丸くする */
+  background-color: #fff; /* 背景色を白に設定 */
+}
+
+/* ボタン群のスタイル */
+.buttons {
+  display: grid; /* グリッドレイアウトを使用してボタンを配置 */
+  grid-template-columns: repeat(4, 1fr); /* 4つの等幅カラムを配置 */
+  gap: 5px; /* ボタン間の隙間を設定 */
+}
+
+/* ボタンの共通スタイル */
+button {
+  padding: 15px; /* パディングを設定 */
+  font-size: 1.5em; /* フォントサイズを大きくする */
+  border: 1px solid #c3c3c3; /* 枠線を灰色に設定 */
+  border-radius: 5px; /* 枠線の角を丸くする */
+  color: #333; /* 文字色を黒に設定 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+  transition: background-color 0.3s ease, transform 0.1s ease; /* ホバーエフェクトの設定 */
+}
+
+/* ボタンの通常状態のスタイル */
+button {
+  background-color: #f2edb4; /* 背景色を薄い青色に設定 */
+}
+
+/* ボタンのホバー時のスタイル */
+button:hover {
+  background-color: #57eb86; /* ホバー時の背景色をより明るい青色に変更 */
+  transform: scale(1.05); /* サイズを拡大するアニメーションを追加 */
+}
+
+/* ボタンのアクティブ時のスタイル */
+button:active {
+  transform: scale(0.95); /* クリック時にボタンを縮小するアニメーションを追加 */
+}
